@@ -71,5 +71,5 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 
 ## Author
 
-Abdullah Al Shovon 
-Pial Hasan
+- Abdullah Al Shovon 
+- Pial Hasan
