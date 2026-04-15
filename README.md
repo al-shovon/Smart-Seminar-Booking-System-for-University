@@ -12,6 +12,7 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 - View upcoming seminars
 - Online seminar seat booking
 - Real-time seat availability
+  
 - Booking history for users
 - Admin dashboard for managing seminars
 - Create, update, and delete seminar events
@@ -65,11 +66,10 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 - Email notification for seminar registration
 - QR code based attendance system
 - Seminar reminders
-- Certificate generation for participants
+- Certificate generation for participants.
 
 ---
 
 ## Author
 
 - Abdullah Al Shovon 
-- Pial Hasan
