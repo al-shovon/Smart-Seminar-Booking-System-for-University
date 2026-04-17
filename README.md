@@ -66,7 +66,9 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 - Email notification for seminar registration
 - QR code based attendance system
 - Seminar reminders
-- Certificate generation for participants.
+- Certificate generation for participants
+
+  
 
 ---
 
