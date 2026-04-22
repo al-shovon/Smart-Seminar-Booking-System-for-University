@@ -60,7 +60,40 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 ---
 
 ## Project Structure
-├── admin/ # Admin panel files ├── assets/ # CSS, JS, images ├── includes/ # Database connection and shared files ├── index.php # Homepage ├── booking.php # Seminar booking logic ├── seminar_detail.php # Seminar details page └── 
+
+Smart-Seminar-Booking-System-for-University/
+│
+├── admin/                     # Admin panel
+│   ├── login.php             # Admin login page
+│   ├── dashboard.php         # Admin dashboard
+│   ├── add_seminar.php       # Add new seminar
+│   ├── edit_seminar.php      # Edit seminar details
+│   ├── delete_seminar.php    # Delete seminar
+│   └── ...                   # অন্যান্য admin-related files
+│
+├── assets/                   # Static assets
+│   ├── css/
+│   │   └── style.css         # Main stylesheet
+│   ├── js/
+│   │   └── main.js           # JavaScript functionality
+│   └── images/               # Image resources
+│
+├── includes/                 # Reusable backend components
+│   ├── db.php                # Database connection
+│   ├── header.php            # Common header
+│   ├── footer.php            # Common footer
+│   └── ...                   # Other includes
+│
+├── index.php                 # Homepage
+├── booking.php               # Seminar booking logic
+├── seminar_detail.php        # Seminar details page
+├── process_booking.php       # Handles booking submission
+├── logout.php                # Logout functionality
+│
+├── database/ (optional)      # Database files
+│   └── seminar_db.sql        # SQL dump file
+│
+└── README.md                 # Project documentation
 
 ---
 
