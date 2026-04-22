@@ -1,0 +1,7 @@
+<?php include '../includes/db.php'; ?>
+
+<form action="send_reset.php" method="POST">
+    <h2>Forgot Password</h2>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <button type="submit">Send Reset Link</button>
+</form>
