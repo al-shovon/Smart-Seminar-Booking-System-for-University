@@ -24,12 +24,10 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 ### Frontend
 - HTML
 - CSS
-- Bootstrap
-- JavaScript / React.js
+- JavaScript
 
 ### Backend
-- Node.js
-- Express.js
+- php
 
 ### Database
 - MySQL
@@ -58,6 +56,11 @@ This system helps improve organization, prevents duplicate bookings, and allows 
 - seminars
 - bookings
 - admins
+
+---
+
+## Project Structure
+├── admin/ # Admin panel files ├── assets/ # CSS, JS, images ├── includes/ # Database connection and shared files ├── index.php # Homepage ├── booking.php # Seminar booking logic ├── seminar_detail.php # Seminar details page └── 
 
 ---
 
