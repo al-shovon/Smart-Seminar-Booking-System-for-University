@@ -19,10 +19,10 @@ if (isset($_GET['delete'])) {
     $del_id    = (int) $_GET['delete'];
     $seminar_id = (int) $_GET['sid'];
 
-    // Booking মুছো
+    // Booking
     mysqli_query($conn, "DELETE FROM bookings WHERE id=$del_id");
 
-    // Seminar এর booked_seats কমাও
+    // Seminar booked_seats
     mysqli_query($conn,
         "UPDATE seminars SET booked_seats = GREATEST(booked_seats - 1, 0)
          WHERE id=$seminar_id"
@@ -106,7 +106,7 @@ $result = mysqli_query($conn,
 $total_bookings = mysqli_num_rows($result);
 mysqli_data_seek($result, 0);
 
-// Seminar dropdown এর জন্য
+// Seminar dropdown
 $all_seminars = mysqli_query($conn,
     "SELECT id, title FROM seminars ORDER BY seminar_date DESC"
 );
@@ -116,7 +116,7 @@ $depts = mysqli_query($conn,
     "SELECT DISTINCT department FROM bookings ORDER BY department"
 );
 
-// Selected seminar info (filter এ থাকলে)
+// Selected seminar info
 $selected_seminar = null;
 if ($seminar_id) {
     $selected_seminar = mysqli_fetch_assoc(
