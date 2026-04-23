@@ -22,7 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $confirm  = trim($_POST['confirm_password']);
     $admin_id = $_SESSION['admin_id'];
 
-    // Current password verify করো
     $admin = mysqli_fetch_assoc(
         mysqli_query($conn, "SELECT password FROM admins WHERE id=$admin_id")
     );
