@@ -18,8 +18,6 @@ $errors = [];
 $success = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
-    // Input গুলো নাও
     $title       = mysqli_real_escape_string($conn, trim($_POST['title']));
     $description = mysqli_real_escape_string($conn, trim($_POST['description']));
     $speaker     = mysqli_real_escape_string($conn, trim($_POST['speaker']));
