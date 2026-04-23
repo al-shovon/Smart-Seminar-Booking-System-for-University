@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-// Already logged in থাকলে dashboard এ পাঠাও
 if (isset($_SESSION['admin_id'])) {
     header("Location: dashboard.php");
     exit;
